@@ -1,0 +1,15 @@
+
+
+Technical
+
+- LaTeX
+
+Ever wondered how your professors typeset your homework and exams? The answer is that they (most likely) use LaTeX, which is a "programming language" of sorts that allows you to use commands that will render various math symbols (e.g. integral signs are rendered using \int). There are various tutorials online that make the process of learning LaTeX easier. If you are an undergrad looking to get into academia, I would personally recommend typesetting your homework assignments in LaTeX as it is good practice for when you eventually have to use it to write your thesis! 
+
+As far as LaTeX editors are concerned, I would recommend using Overleaf. It stores your work on the cloud and works well enough for the vast majority of use cases. If you are a student, you may be able to gain access to Overleaf's premium features through your institution (this is most certainly the case for Rice and UT).
+
+Programming/Problem Solving
+
+- Project Euler
+
+This is a great resource if you are looking to improve your programming/problem solving skills and want a resource that is more mathematically oriented compared to something like LeetCode. I quite enjoy hacking away at these in my spare time. To date, I have solved 129 of the problems here!
