@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Abiel Quinonez">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Abiel Quinonez</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <img src="tesseract.gif" align="left" height="200px">Abiel Quinonez<img src="tesseract.gif" align="right" height="200px">
+            </div>
+            <p style="font-size: 12pt">(site last updated on 04/18/2026)</p>
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'About Me')" id="default">About Me</button>
+                <button class="tablinks" onclick="openTab(event, 'Research')">Research</button>
+                <button class="tablinks" onclick="openTab(event, 'Teaching')">Teaching</button>
+                <button class="tablinks" onclick="openTab(event, 'Resources')">Resources</button>
+                <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+                <button class="tablinks" onclick="openTab(event, 'Blog')">Blog</button>
+            </div>
+        </header>
+        <!--About Me-->
+        <div id="About Me" class="tabcontent">
+
+            <img src="face.jpg" align="left" height="300px">
+
+            <p>I am currently a first-year Ph.D. student in the <a href="http://ma.utexas.edu">mathematics department</a> at the <a href="http://www.utexas.edu">University of Texas</a>. Born and raised in the Dallas-Fort Worth area, I graduated from <a href="https://northmesquitehighschool.mesquiteisd.org/">North Mesquite High School</a> in 2021 and completed a B.S. in Mathematics and a B.A. in Computer Science at <a href="http://www.rice.edu">Rice University</a> in 2025. </p>
+
+            <p>In my spare time, I enjoy collecting/building LEGO models, practicing the piano, lifting weights, playing video/board/card games, and building PCs.</p>
+        </div>
+        <!--Research-->
+        <div id="Research" class="tabcontent">
+            <p>My current research interests lie in quantum algebra and representation theory, although this is subject to change in the next few years. While at Rice, I conducted research on extended Frobenius algebras under the direction of <a href="https://math.rice.edu/~notlaw/">Dr. Chelsea Walton</a>. I am currently in the process of searching for an advisor at UT so my research interests will likely change over the next few years.</p>
+            <h1>Curriculum Vitae</h1>
+            A copy of my CV may be found <a href="cv.pdf">here</a>.
+            <h1>Publications</h1>
+            <p>A. Czenky, J. Kesten, A. Quinonez, C. Walton, <cite>On extended Frobenius structures</cite>, 2025, Theory and Applications of Categories. <a href="https://arxiv.org/abs/2410.18232">arXiv</a></p>
+            
+        </div>
+        <!--Teaching-->
+        <div id="Teaching" class="tabcontent">
+            <h1>Past TA Positions</h1>
+            <h2>Rice</h2>
+            <p>Fall 2022: MATH 355 (Linear Algebra)</p>
+            <p>Fall 2023: COMP 182 (Algorithmic Thinking)</p>
+            <h2>UT</h2>
+            I am currently on UT's CNS fellowship, so I haven't had any teaching experience at UT yet, but this will change starting in the fall of 2026.
+            <h1 hidden="true">Directed Reading PRogram</h1>
+            <h1>Tutoring</h1>
+            In addition to my work as a TA, I also do private math tutoring for an hourly fee (high school and above, including math competitions). For more details email me using my "gmail" address.
+        </div>
+        <!--Resources-->
+        <div id="Resources" class="tabcontent">
+            <p>This page is a WIP! Check back later for an update!</p>
+        </div>
+        <!--Contact-->
+        <div id="Contact" class="tabcontent">
+            <h1>Office</h1>
+            <p>My office at UT is currently located in PMA 11.146, although I can only guarantee that I will be in my office during my designated office hours.</p>
+            <h1>Email</h1>
+            <p>The easiest way to reach me outside of my office hours is via email. There are two different email addresses that I check regularly:</p>
+            <p>For matters relating to UT or my mathematics research: <a href="mailto:adq243@utexas.edu">adq243@utexas.edu</a></p>
+            <p>For all other matters: <a href="mailto:abielquinonez@gmail.com">abielquinonez@gmail.com</a></p>
+            <p>I will make every effort to reply to all emails that I receive within 72 business hours (via either address). I prefer to be addressed by my first name in all correspondence, whether in person or via email. Click <a onclick="document.getElementById('pronunciation').play()">here</a> for a correct pronunciation of my name!</p>
+            <audio id="pronunciation" preload="metadata">
+                <source src="pronunciation.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        <!--Blog-->
+        <div id="Blog" class="tabcontent">
+            <p>This page is a WIP! Check back later for an update!</p>
+        </div>
+    </body>
+
+    <script>document.getElementById("default").click();</script>
+</html>
